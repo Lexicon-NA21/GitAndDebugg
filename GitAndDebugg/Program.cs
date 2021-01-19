@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace GitAndDebugg
@@ -7,7 +8,9 @@ namespace GitAndDebugg
     {
         static void Main(string[] args)
         {
-            int x = 5;
+            
+
+            int x = 4;
             int y = 6;
 
             int result = GetSum(x, y);
@@ -19,7 +22,16 @@ namespace GitAndDebugg
                 Console.WriteLine(i);
             }
 
+            List<Car> cars = new List<Car>();
+
+            cars.Add(new Car("Vovlo", 1984));
+
+
+            
+
             Console.WriteLine("Hej");
+
+            x = 8;
         }
 
         private static int GetSum(int x, int y)

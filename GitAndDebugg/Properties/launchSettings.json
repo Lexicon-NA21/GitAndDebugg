@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "GitAndDebugg": {
+      "commandName": "Project",
+      "commandLineArgs": "\"Hej\" \"Kalle\""
+    }
+  }
+}
